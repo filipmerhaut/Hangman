@@ -18,6 +18,7 @@ class Program
             Console.Clear();            
             //HangmanGame.zakresliGrafiku(i);            
             Console.WriteLine("Již vyzkoušené písmena: " + HangmanGame.vypisPokusu(seznamPokusu));
+            Console.WriteLine("Počet zbývajících pokusů: {0}", pocetDovolenychPokusu-cisloPokusu+1);
             Console.WriteLine();            
             Console.WriteLine("Skryté slovo: " + HangmanGame.vypisSlepeSlovo(skryteSlovo, seznamPokusu));
             Console.WriteLine();
@@ -30,7 +31,7 @@ class Program
         
         if (HangmanGame.bylaDosazenaVyhra(skryteSlovo, seznamPokusu))
         {
-            Console.WriteLine("Gratulujeme, vyhrál jsi!");
+            Console.WriteLine("Gratulujeme, vyhrál jsi! Skryté slovo bylo: {0}",skryteSlovo);            
         }
         else 
         {

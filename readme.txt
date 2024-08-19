@@ -61,4 +61,4 @@ Konfigurační soubor: strukturovaný (xml, csv, json, .config) konfigurační s
 Ukládání výsledků: Implementovat ukládání a načítání výsledků her (např. počet výher/proher).
 Více kategorií slov: Mít více kategorií slov, ze kterých si hráč může vybrat (např. zvířata, země, jídlo).
 "GUI": Postupné "grafické" zobrazení oběšence (pomocí "ASCII art")
- 
+ Vícejazyčná verze
